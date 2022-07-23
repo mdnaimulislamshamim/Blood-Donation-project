@@ -1,0 +1,85 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:whitesmoke;
+}
+.main-area-1{
+    width: 100%;
+    height: 70vh;
+   background-image: url(img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.section-area-1{
+    display: flex;
+}
+
+.first-div-1{
+    width: 40%;
+ 
+
+   
+}
+.first-div-img{
+    width: 50%;
+    height: 65vh;
+   margin-left: 250px;
+   margin-top: 46px;
+   
+
+}
+.about-area{
+    width: 60%;
+    text-align: center;
+    margin: 150px 150px 0px 150px
+}
+.about-area h1{
+    color: red;
+    font-style: italic;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.about-area p{
+    color: beige;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+   
+}
+.span-area{
+    color: #FFB6C1;
+}
+/* ============================
+        main-area-2
+==============================*/
+.main-area-2{
+    width: 100%;
+   
+   background-color: #FFFAF0;
+}
+.section-area-2{
+    display: flex;
+
+
+}
+.blood-explanation-text{
+    width: 40%;
+    height: 200vh;
+}
+.blood-explanation-img{
+    width: 60%;
+    height: 40vh;
+   display: grid;
+   grid-template-columns: repeat(2 ,1fr);
+   gap: 20px;
+    background-color: #FFB6C1;
+    margin-top: 60px;
+}
+.explanation-img{
+    border: 5px solid red;
+}
+.explanation-img img{
+width: 100%;
+height: 41vh;
+}
