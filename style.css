@@ -55,8 +55,9 @@ body{
 ==============================*/
 .main-area-2{
     width: 100%;
-   
+    height: 92vh;
    background-color: #FFFAF0;
+   margin-top: 60px;
 }
 .section-area-2{
     display: flex;
@@ -65,7 +66,24 @@ body{
 }
 .blood-explanation-text{
     width: 40%;
-    height: 200vh;
+    height: 92vh;
+    background-color: #E6E6FA;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.blood-explanation-text h1{
+    color: black;
+    font-size: 50px;
+font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+  
+}
+.blood-explanation-text p{
+font-size: 19px;
+margin: 0 20px 60px 40px;
+
+
 }
 .blood-explanation-img{
     width: 60%;
@@ -73,13 +91,88 @@ body{
    display: grid;
    grid-template-columns: repeat(2 ,1fr);
    gap: 20px;
-    background-color: #FFB6C1;
-    margin-top: 60px;
-}
-.explanation-img{
-    border: 5px solid red;
+    /* background-color: #FFB6C1; */
+    /* margin-top: 60px; */
 }
 .explanation-img img{
 width: 100%;
 height: 41vh;
+}
+/* ================
+    main-area-3
+===================*/
+.main-area-3{
+width: 100%;
+background-color: #FFFFF0;
+
+}
+.main-area-3 h1{
+    color: black;
+text-align: center;
+font-size: 60px;
+font-style: italic;
+font-weight: 700;
+padding-top: 30px;
+}
+.section-area-3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 26px;
+    margin: 50px 100px;
+}
+.profile-area{
+width: 100%;
+background-color: #87CEEB;
+text-align: center;
+border-radius: 20px;
+}
+.profile-img{
+width: 40%;
+height: 20vh;
+clip-path: circle();
+
+
+}
+.profile-area h2{
+color: blue;
+
+}
+.profile-area p{
+text-align: start;
+margin: 0 5px 10px 10px ;
+}
+/* ====================
+main-area-4
+======================*/
+.main-area-4{
+width: 100%;
+/* background-image: url(img/backgroud-img.jpg); */
+background-color: #F0F8FF;
+}
+.main-area-4 h1{
+    color: red;
+    font-size: 50px;
+  border-bottom: 3px solid black;
+  margin: 30px 600px;
+  padding-bottom: 15px;
+}
+.main-area-4 h1{
+    text-align: center;
+}
+.section-area-4{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+   margin: 30px 100px;
+
+}
+.gallary{
+    width: 100%;
+    border-radius: 30px;
+}
+.gallary-img-area{
+    width: 100%;
+    height: 30vh;
+    border-radius: 30px;
 }
